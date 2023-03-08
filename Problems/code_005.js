@@ -22,3 +22,25 @@ function devide(limit) {
 }
 
 devide(20);
+
+function divNum(limit) {
+    let small = limit;
+    let isDivis = false;
+
+    while(!isDivis) {
+        isDivis = true;
+
+        for(let i = limit- 1; i >=2; i--) {
+            if(small % i !== 0) {
+                isDivis = false;
+                break;
+            }
+        }
+
+        if(!isDivis) {
+            small += limit;
+        }
+    }
+    return small;
+}
+console.log(divNum(20));
