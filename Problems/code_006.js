@@ -29,5 +29,16 @@ function minus(num1, num2) {
 
 // sumSquare(10);
 // square(10);
-minus(sumSquare(100), square(100));
+//minus(sumSquare(100), square(100));
 //minus();
+
+function program(ele1, ele2) {
+    let multiSum = 0;
+    let sum = 0;
+    let result = 0;
+    multiSum = (ele1*(ele1 + 1)*(2*ele1+1)/6);
+    sum = (ele2*(ele2+1)/2)*(ele2*(ele2+1)/2);
+    result = sum-multiSum;
+    console.log(result);
+}
+program(100,100);
