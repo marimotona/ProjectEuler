@@ -12,7 +12,7 @@ function prime(limit) {
 }
 
 function checkPrime(ele) {
-    for (let i = 2; i < ele; i++){
+    for (let i = 2; i*i <= ele; i++){
         if(ele % i === 0){
             //console.log("not prime");
             return false;
