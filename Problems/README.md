@@ -27,4 +27,8 @@ num * factorial(num - 1)<br>
 2 * factorial(1)<br>
 retuurn 1<br>
 <br>
-つまり、4 * 3 * 2 * 1になる
+つまり、4 * 3 * 2 * 1になる<br>
+
+動的計算法（dynamic programming）<br>
+漸化式を利用して、次々に途中までの会を記録していき<br>
+最終的に解を求める方法
