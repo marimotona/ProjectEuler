@@ -9,4 +9,28 @@ function pythagorean() {
         }
     }
 }
-pythagorean();
+//pythagorean();
+
+var a, b,c;
+var pos1,pos2,pos3;
+var ans1,ans2,ans3;
+
+for(let n=2; n<=20000;n++) {
+    a = 2*n+1;
+    b = 2*n*(n+1);
+    c = 2*n*(n+1)+1;
+    if(a<b<c){
+        if (Math.pow(a,2) + Math.pow(b,2) === Math.pow(c,2)) {
+            pos1 = a;
+            pos2 = b;
+            pos3 = c;
+        }
+        if (a + b + c === 1000) {
+            ans1 = a;
+            ans2 = b;
+            ans3 = c;
+        }
+    }
+    
+}
+console.log(ans1+ans2+ans3);
