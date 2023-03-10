@@ -13,9 +13,9 @@ for (let j = 0; j < array.length; j++) {
     result += BigInt(array[j]);
     //console.log(result);
 }
-// for(const ele of array) {
-//     console.log(parseInt(ele, 10));
-//     result += parseInt(ele, 10);
-//     console.log(result);
-// }
+
+while(multi > 0) {
+    result += multi % 10n;
+    multi /= 10;
+}
 console.log(result.toString());
