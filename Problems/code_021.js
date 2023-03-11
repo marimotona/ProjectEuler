@@ -16,8 +16,10 @@ function amicable() {
        divisorData[k] = divisor(k);
     }
     for (let j = 1; j <= 10000; j++) {
-        let divisiorSums = divisorData[j];
+        let divisiorSums = divisorData[j]; //j番目の約数の和が格納してある
+        //j=220の時、divisorData[j] === 284 === divisiorSum
         if(divisiorSums <= 10000 && divisiorSums !== j && divisorData[divisiorSums] === j){
+            //divisorData[divisiorSums] === divisorData[284] === 220
             result += j;
         }
     }
