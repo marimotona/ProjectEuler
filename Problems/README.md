@@ -81,3 +81,6 @@ sortは文字列に使えない
 ## code_034
 OK!<br>
 factoriaの再帰
+
+## code_035
+高階関数
