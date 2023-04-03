@@ -134,3 +134,6 @@ const i = 2;<br><br>
 
 const newDigits = digits.slice(0, i).concat(digits.slice(i + 1));<br>
 console.log(newDigits); // [1, 2, 4, 5]<br>
+
+## code_042
+code_42とcode_22は似ている
