@@ -108,6 +108,7 @@ factoriaの再帰
 
 ## code_041
 先にpandigitalを作成する<br>
+pandigitals生成のところ難しかった<br>
 
 【Array.from】<br>
 
