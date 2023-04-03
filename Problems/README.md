@@ -104,3 +104,32 @@ factoriaの再帰
 
 ## code_039
 条件式の範囲を効率よく絞ることができるか
+
+
+## code_041
+先にpandigitalを作成する<br>
+
+【Array.from】<br>
+
+### 文字列を配列に変換
+const str = "hello";<br>
+const arr = Array.from(str);<br>
+console.log(arr); // ['h', 'e', 'l', 'l', 'o']<br>
+
+### 配列を生成し、各要素に適用する関数を設定
+const arr = Array.from({ length: 5 }, (_, i) => (i + 1) * 2);<br>
+console.log(arr); // [2, 4, 6, 8, 10]<br>
+
+【slice】<br>
+
+slice(indexStart, indexEnd)<br>
+str.slice(1, 4) --> 1, 2, 3  //indexEndは含まない
+
+【concat】<br>
+二つの要素を連結して新たな配列を作成する<br>
+
+const digits = [1, 2, 3, 4, 5];<br>
+const i = 2;<br><br>
+
+const newDigits = digits.slice(0, i).concat(digits.slice(i + 1));<br>
+console.log(newDigits); // [1, 2, 4, 5]<br>
