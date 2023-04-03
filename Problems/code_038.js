@@ -47,4 +47,3 @@ function concat(){
 
 concat();
 
-console.log(99999 * 2);
