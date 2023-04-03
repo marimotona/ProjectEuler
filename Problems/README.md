@@ -110,23 +110,23 @@ factoriaの再帰
 先にpandigitalを作成する<br>
 pandigitals生成のところ難しかった<br>
 
-【Array.from】<br>
+### Array.from
 
-### 文字列を配列に変換
+・文字列を配列に変換
 const str = "hello";<br>
 const arr = Array.from(str);<br>
 console.log(arr); // ['h', 'e', 'l', 'l', 'o']<br>
 
-### 配列を生成し、各要素に適用する関数を設定
+・配列を生成し、各要素に適用する関数を設定
 const arr = Array.from({ length: 5 }, (_, i) => (i + 1) * 2);<br>
 console.log(arr); // [2, 4, 6, 8, 10]<br>
 
-【slice】<br>
+### slice
 
 slice(indexStart, indexEnd)<br>
 str.slice(1, 4) --> 1, 2, 3  //indexEndは含まない
 
-【concat】<br>
+### concat
 二つの要素を連結して新たな配列を作成する<br>
 
 const digits = [1, 2, 3, 4, 5];<br>
