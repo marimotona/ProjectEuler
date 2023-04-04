@@ -137,3 +137,6 @@ console.log(newDigits); // [1, 2, 4, 5]<br>
 
 ## code_042
 code_42とcode_22は似ている
+
+## code_043
+0 ~ 9の組み合わせを生成するところ難しい
