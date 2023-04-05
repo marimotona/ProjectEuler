@@ -175,5 +175,22 @@ x = (-b ± sqrt(b^2 - 4ac)) / 2a
 ループだけではなく、関数そのものから脱出
 #### break
 ループ、switch文の終了
+
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) {
+    break;
+  }
+  console.log(i);
+}
+→ 1, 2, 3, 4
+
 #### continue
 次の繰り返しからループを再開
+
+for (let i = 1; i <= 10; i++) {
+  if (i === 5) {
+    continue;
+  }
+  console.log(i);
+}
+→ 1, 2, 3, 4, 6, 7, 8, 9, 10 

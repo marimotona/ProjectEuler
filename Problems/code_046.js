@@ -60,14 +60,14 @@ function christin(){
     const primes = eratosthenes(limit);
 
     for(let p = 9; p < limit; p += 2){
-        if(primes.includes(p)){
+        if(primes.includes(p)){ //素数である場合を除く、合成数の奇数だけ残る
             continue;
         }
 
         let found = false;
 
         for(const prime of primes){
-            if(prime >= p){
+            if(prime >= p){ //合成数がpより大きくなった場合、ループが終了する
                 break;
             }
 
