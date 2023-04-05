@@ -180,10 +180,10 @@ x = (-b ± sqrt(b^2 - 4ac)) / 2a
 もう一度やりたい<br>
 エラトステネスの篩
 
-#### return
+### return
 関数を終了し関数の呼び出し元にいく<br>
 ループだけではなく、関数そのものから脱出<br>
-#### break
+### break
 ループ、switch文の終了<br>
 
 for (let i = 1; i <= 10; i++) {<br>
@@ -194,7 +194,7 @@ for (let i = 1; i <= 10; i++) {<br>
 }<br>
 → 1, 2, 3, 4
 
-#### continue
+### continue
 次の繰り返しからループを再開<br>
 
 for (let i = 1; i <= 10; i++) {<br>
