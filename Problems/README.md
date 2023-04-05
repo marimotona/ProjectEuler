@@ -167,30 +167,35 @@ a * x^2 + b * x + c = 0<br>
 x = (-b ± sqrt(b^2 - 4ac)) / 2a
 
 ## code_046
-もう一度やりたい
+もう一度やりたい<br>
 エラトステネスの篩
 
 #### return
-関数を終了し関数の呼び出し元にいく
-ループだけではなく、関数そのものから脱出
+関数を終了し関数の呼び出し元にいく<br>
+ループだけではなく、関数そのものから脱出<br>
 #### break
-ループ、switch文の終了
+ループ、switch文の終了<br>
 
-for (let i = 1; i <= 10; i++) {
-  if (i === 5) {
-    break;
-  }
-  console.log(i);
-}
+for (let i = 1; i <= 10; i++) {<br>
+  if (i === 5) {<br>
+    break;<br>
+  }<br>
+  console.log(i);<br>
+}<br>
 → 1, 2, 3, 4
 
 #### continue
-次の繰り返しからループを再開
+次の繰り返しからループを再開<br>
 
-for (let i = 1; i <= 10; i++) {
-  if (i === 5) {
-    continue;
-  }
-  console.log(i);
-}
+for (let i = 1; i <= 10; i++) {<br>
+  if (i === 5) {<br>
+    continue<br>
+  }<br>
+  console.log(i);<br>
+}<br>
 → 1, 2, 3, 4, 6, 7, 8, 9, 10 
+
+## code_047
+素因数分解<br>
+素数の積に分解すること<br>
+要素を一つ一つ確認するのではなく、サイズで考える
