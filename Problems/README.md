@@ -1,3 +1,6 @@
+# 
+"Mathematically efficient"
+
 ## code_009 
 ・他の書き方<br>
 ・ピタゴラスの定理で、なぜ成り立つか<br>
