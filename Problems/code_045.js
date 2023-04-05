@@ -49,5 +49,39 @@ function check(){
     }
 }
 
-console.log(check());
+//console.log(check());
 
+
+///////////// 2 ///////////////
+
+////// Quadratic Formula //////
+
+function isTriangle(num) {
+    const n = (-1 + Math.sqrt(1 + 8 * num)) / 2;
+    return Number.isInteger(n);
+}
+
+function isPentagonal(num) {
+    const n = (1 + Math.sqrt(1 + 24 * num)) / 6;
+    return Number.isInteger(n);
+}
+
+
+function checkNextTriPenHex(){
+    let n = 144;
+    let hexagonalNumber;
+
+    while(true){
+        hexagonalNumber = n * (2 * n - 1);
+
+        if(isTriangle(hexagonalNumber) && isPentagonal(hexagonalNumber)){
+            break;
+        }
+
+        n++;
+
+    }
+    return hexagonalNumber;
+}
+
+console.log(checkNextTriPenHex());
