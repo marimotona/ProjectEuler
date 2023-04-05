@@ -8,56 +8,6 @@ What 12-digit number do you form by concatenating the three terms in this sequen
 
 */
 
-// function eratosthenes(){
-//     const limit = 9999;
-//     const primes = new Set();
-//     const isprime = new Array(limit + 1).fill(true);
-
-//     isprime[0] = false;
-//     isprime[1] = false;
-
-//     for(let j=2; j*j <= limit; j++) {
-//         if(isprime[j]) {
-//             for(let k = j * j; k <= limit; k += j){
-//                 isprime[k] = false;
-//             }
-//         }
-//     }
-
-//     for (let i = 1500; i <= limit; i++) {
-//         if (isprime[i]) {
-//             primes.add(i);
-//         }
-//     }
-
-//     return primes;
-// }
-
-// function check(ele, ele2, ele3){
-//     for(const p of ele){
-//         if(ele2.includes(p) && ele3.includes(p)) return true;
-//     }
-//     return false;
-// }
-
-// function arithmetic(){
-//     const primes = eratosthenes();
-//     const result = [];
-
-//     for(const ele of primes){
-//         let re1 = ele + 3330;
-//         let re2 = re1 + 3330;
-
-//         if(primes.has(re1) && primes.has(re2) && check(String(ele), String(re1), String(re2))){
-//             result.push(ele, re1, re2);
-//         }
-//     }
-//     return result.length > 0 ? result.join('') : 'No result found.';
-// }
-
-// console.log(arithmetic());
-
-
 function eratosthenes() {
     const limit = 9999;
     const primes = new Set();
