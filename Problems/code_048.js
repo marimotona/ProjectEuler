@@ -18,3 +18,23 @@ function series(){
     return result;
 }
 console.log(series());
+
+
+////////// mod //////////
+
+function modSeries(){
+    const limi = 1000;
+    let sum = BigInt(0);
+    const mod = BigInt(10 ** 10); //末尾10桁の余りの計算のために使う
+
+    for(let k = 1; k <= limi; k++){
+        let term = BigInt(k) ** BigInt(k);
+        term %= mod; //それぞれの累乗を足し合わせる前に、各要素の末尾10桁の余りを算出している
+        sum += term;
+        sum %= mod;//各項と合計値の末尾10桁のみを保持する
+    }
+    return sum.toString();
+}
+
+console.log(modSeries());
+

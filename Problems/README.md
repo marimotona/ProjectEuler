@@ -202,4 +202,7 @@ for (let i = 1; i <= 10; i++) {<br>
 数列がテーマ？？
 
 ## code_048
-BigInt
+BigInt<br>
+mod 効率的に余りを求めることができる<br>
+余りを考える<br>
+modの使い方
