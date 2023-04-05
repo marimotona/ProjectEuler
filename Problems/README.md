@@ -1,4 +1,5 @@
-# "Mathematically efficient"
+# 
+"Mathematically efficient"
 
 ## code_009 
 ・他の書き方<br>
