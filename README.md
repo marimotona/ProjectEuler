@@ -1,4 +1,4 @@
 # ProjectEuler
-My Project Euler Solutions in JavaScript<br>
+My Project Euler solutions in JavaScript<br>
 
 https://projecteuler.net/archives
