@@ -21,3 +21,23 @@ function checkPrime(ele) {
     return true;
 }
 prime(10001);
+
+
+/// 0408 ///
+
+function prime2(){
+    let number = 2;
+    let count = 0;
+    while(count < 10001){
+        if(checkPrime(number)){
+            count++;
+        }
+        number++;
+
+        if(count === 10001) {
+            return number - 1;
+        }
+    }
+}
+
+console.log(prime2());
