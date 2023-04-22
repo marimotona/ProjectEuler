@@ -44,6 +44,7 @@ function generatePermutations(arr, currentPermutation = []){
     return permutations;
 
 }
+console.log(generatePermutations([0, 1, 2]));
 
 function divisiblity(){
     let sum = 0;
@@ -62,4 +63,4 @@ function divisiblity(){
     return sum;
     
 }
-divisiblity();
+//divisiblity();
