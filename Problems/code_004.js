@@ -9,13 +9,6 @@ function palid(num) {
             }
         }
     }
-    // const len = array.length;
-    // for(let k = 0; k <len/2; k++) {
-    //     if(array[k] !== array[len - 1 - k]) {
-    //         return false;
-    //     }
-    //     return true;
-    // }
     console.log(largestPalindrome);
 }
 palid();
